@@ -1,0 +1,2 @@
+# fake-dns
+I created a fake dns server using python. It creates the packets and adds the appropriate hex codes in the response. I then created a dns query tool using go. In the repo you wills see the binary called main along with main.go that has the code. Run binary like ./main after you start the python server python dns.py. The go program will print out something like this screenshot; you can see the pcap file for the ids and glue record.
